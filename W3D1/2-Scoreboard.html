@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Scoreboard</title>
+  <style>
+    html,
+    body {
+      font-size: 100%;
+    }
+
+    .scoreboard {
+      margin: 20vh 5vw 5vh;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 50rem) {
+      .scoreboard {
+        flex-direction: column;
+        margin-top: 10vh;
+      }
+    }
+
+    .dino {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .points {
+      display: inline-block;
+      margin: 1rem;
+      padding: 1rem;
+      width: 8rem;
+
+      background: #eee;
+      font-family: monospace;
+      font-size: 3rem;
+      cursor: pointer;
+    }
+
+    .lead {
+      text-align: center;
+      font-size: 1.6rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="scoreboard">
+    <div class="score">
+      <div class="dino">Tyrannosaur</div>
+      <div class="points">24</div>
+    </div>
+    <div class="score">
+      <div class="dino">Apatosaurus</div>
+      <div class="points">2</div>
+    </div>
+    <div class="score">
+      <div class="dino">Brachiosaurus</div>
+      <div class="points" onclick="addOne())">7</div>
+    </div>
+  </div>
+  <div class="lead">
+    <p>Tyrannosaur is in the lead with a whopping 24 points!!</p>
+    <p>(Apatosaurus comes in last with a meager 2 points...)</p>
+  </div>
+
+</body>
+<script src="2-Scoreboard.js"></script>
+</html>

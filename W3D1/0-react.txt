@@ -1,0 +1,17 @@
+React is a front-end library to build scalable, client side user interfactes (UI).
+It is used to turn websites into really complex 'Single Page Applications' (SPA). 
+
+Reduces the work on the DOM. Without REACT, to change a DOM element you need to: 1. Get the element, 2. Change the element and 3. Append the element. THis is done in an IMPERATIVE way, where instructions are given.
+React uses a DECLARATIVE style. I final result is indicated and a function will return it, working as a blackbox, where REACT handle all the necessary DOM changes. 
+
+1 - CHANGES IN THE DOM
+
+Using the DOM to change the content of a webpage with JavaScript. By doing this, we are making the page into an actual Single Page Application (SPA).
+
+A SPA is a web application that interacts with the user by dinamically rewritting the current page rather than navigating to other pages.
+
+CLOCK example
+
+A clock is a simple element that displays the time and updates every secont. Doing this by hand would require continuous changing of the DOM. 
+The main JavaScript functionality used here are the getElementById method and the Date object.
+
