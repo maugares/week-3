@@ -15,3 +15,5 @@ CLOCK example
 A clock is a simple element that displays the time and updates every secont. Doing this by hand would require continuous changing of the DOM. 
 The main JavaScript functionality used here are the getElementById method and the Date object.
 
+2 - USING REACT TO SIMPLIFY THE DOM RENDERING
+
