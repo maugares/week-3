@@ -17,3 +17,12 @@ The main JavaScript functionality used here are the getElementById method and th
 
 2 - USING REACT TO SIMPLIFY THE DOM RENDERING
 
+React renders the DOM with a given state based on a user request. React modifies a component (similar to classes in React). 
+
+Components are the building blocks of any React app and a typical React app will have many of these. Simply put, a component is a JavaScript class or function that optionally accepts inputs i.e. properties(props) and returns a React element that describes how a section of the UI (User Interface) should appear.
+
+The components are UNIQUE in their state and in WHAT React renders for them. They are the SAME in HOW React renders them.
+
+class Cloke extends React.Component{
+
+}

@@ -2,8 +2,11 @@ function calculate(element){
   const points = element.innerHTML;
   element.innerHTML= parseInt(element.innerHTML) + 1;
 
-  const dinos = document.getElementsByClassName('score');
-  
-  console.log(element.parent);
+  const parentElement = element.parentElement;
+  console.log(parentElement)
+  const dinoName = parentElement.getElementsByTagName("dino").innerHTML
+  console.log(dinoName)
+
+  // console.log(element.parent);
 }
 
